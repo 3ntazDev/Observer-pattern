@@ -1,10 +1,10 @@
 {
-    "string" : "elzero" ,
-    "number" : 100 ,
+    "string" : "a" ,
+    "number" : 2 ,
     "Object" : {
 
-        "eg" : "Eygept",
-        "KSA": "riyadh"
+        "eg" : "2",
+        "KSA": "2"
 
     },
     "Arry": [1,2,3] , 
