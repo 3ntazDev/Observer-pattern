@@ -1,0 +1,13 @@
+{
+    "string" : "elzero" ,
+    "number" : 100 ,
+    "Object" : {
+
+        "eg" : "Eygept",
+        "KSA": "riyadh"
+
+    },
+    "Arry": [1,2,3] , 
+    "Bolian" : "True"
+
+}
