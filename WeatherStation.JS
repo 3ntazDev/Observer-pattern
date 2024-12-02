@@ -9,6 +9,9 @@ class WeatherStation {
     }
     
     
+
+
+    
     dregisterObserver(observer) {
         this.observers = this.observers.filter(obs=> obs !== this.observer);
     }
