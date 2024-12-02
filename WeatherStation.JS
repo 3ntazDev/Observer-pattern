@@ -4,17 +4,24 @@ class WeatherStation {
         this.temperature = 0;
     }
 
-    // Register an observer
     registerObserver(observer) {
         this.observers.push(observer);
     }
+    
+    
+    dregisterObserver(observer) {
+        this.observers = this.observers.filter(obs=> obs !== this.observer);
+    }
 
-    // Notify observers of changes
+
+
+
+
+
     notifyObservers() {
         this.observers.forEach(observer => observer.update(this.temperature));
     }
 
-    // Set a new temperature
     setTemperature(temperature) {
         this.temperature = temperature;
         this.notifyObservers();
@@ -24,7 +31,7 @@ class WeatherStation {
 
 class Observer {
     update(temperature) {
-        // This method will be implemented by concrete observers
+        
     }
 }
 
